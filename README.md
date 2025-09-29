@@ -23,7 +23,7 @@ This project implements a comprehensive face recognition and tracking system for
 
 ## CONFIG FILE:
 {
-"mongodb_connection_string": "mongodb+srv://username:password@cluster.mongodb.net/facerecognitiondb?retryWrites=true&w=majority",
+"mongodb_connection_string": "mongodb+srv://CV_TASK:12345@cluster-1.1aklqjp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-1",
 "detection_model": "yolov8n.pt",
 "tracker_max_age": 30,
 "embedding_similarity_threshold": 0.6,
