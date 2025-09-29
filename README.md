@@ -35,7 +35,8 @@ This project implements a comprehensive face recognition and tracking system for
 
 ## Architecture Diagram
 
-![Architecture Diagram](./docs/architecture_diagram.png)
+![Architecture Diagram](./doc<img width="1024" height="1024" alt="Generated Image September 29, 2025 - 7_30AM" src="https://github.com/user-attachments/assets/5a88230e-8cfd-4ca5-b3a1-c082243ade9b" />
+s/architecture_diagram.png)
 
 ---
 
@@ -44,6 +45,7 @@ This project implements a comprehensive face recognition and tracking system for
 Watch the explanatory and demonstration video here:
 
 [![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.loom.com/share/75dbe29d10e14d9f8fbf070552f6e9d3?sid=7efe7007-0059-4e2a-a299-1d76490e5899)
+
 
 ---
 
