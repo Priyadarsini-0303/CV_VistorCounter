@@ -51,7 +51,7 @@ Watch the explanatory and demonstration video here:
 
 ## Advancement Note
 
-The current system uses YOLO for face detection, but we can enhance accuracy by replacing YOLO with the **RetinaFace model**, which provides superior face detection capabilities especially under challenging conditions.
+The current system uses YOLO for face detection, but we can enhance accuracy by replacing YOLO with the **RetinaFace model**, which provides superior face detection capabilities especially under challenging conditions.This implementation as been provided in the Advancement_CV_TASK.ipynb file in this gitub.
 
 ---
 
