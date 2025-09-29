@@ -1,4 +1,4 @@
-# # Visitor Face Recognition & Tracking System
+## Visitor Face Recognition & Tracking System
 
 This project implements a comprehensive face recognition and tracking system for detecting, identifying, and logging unique visitors in video streams or recorded video files. It leverages YOLOv8 for face detection, DeepSORT for multi-object tracking, and InsightFace for facial recognition embeddings. The solution stores visitor data and event logs in MongoDB Atlas and produces annotated output videos.
 
@@ -44,8 +44,6 @@ This project implements a comprehensive face recognition and tracking system for
 Watch the explanatory and demonstration video here:
 
 [![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.loom.com/share/75dbe29d10e14d9f8fbf070552f6e9d3?sid=7efe7007-0059-4e2a-a299-1d76490e5899)
-
-*(Replace `VIDEO_ID` with your actual YouTube or Loom video ID/link.)*
 
 ---
 
