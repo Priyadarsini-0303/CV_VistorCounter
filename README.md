@@ -1,1 +1,58 @@
-# CV_VistorCounter
+# # Visitor Face Recognition & Tracking System
+
+This project implements a comprehensive face recognition and tracking system for detecting, identifying, and logging unique visitors in video streams or recorded video files. It leverages YOLOv8 for face detection, DeepSORT for multi-object tracking, and InsightFace for facial recognition embeddings. The solution stores visitor data and event logs in MongoDB Atlas and produces annotated output videos.
+
+---
+
+## Features
+
+- Real-time face detection and tracking in videos or live streams.
+- Accurate identification of unique faces with embedding matching.
+- Persistent visitor and event storage via MongoDB Atlas.
+- Visual output with rectangles and IDs on recognized faces.
+- Support for video file and RTSP live stream inputs.
+
+---
+
+## Setup Instructions
+
+1. Clone the repository.
+2. Install required packages
+3. Setup MongoDB Atlas and update your `config.json` with the connection string.
+4. Run the main script with a video file or RTSP URL
+
+## CONFIG FILE:
+{
+"mongodb_connection_string": "mongodb+srv://username:password@cluster.mongodb.net/facerecognitiondb?retryWrites=true&w=majority",
+"detection_model": "yolov8n.pt",
+"tracker_max_age": 30,
+"embedding_similarity_threshold": 0.6,
+"log_directory": "logs/",
+"output_directory": "output/"
+}
+
+---
+
+## Architecture Diagram
+
+![Architecture Diagram](./docs/architecture_diagram.png)
+
+---
+
+## Video Demonstration
+
+Watch the explanatory and demonstration video here:
+
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.loom.com/share/75dbe29d10e14d9f8fbf070552f6e9d3?sid=7efe7007-0059-4e2a-a299-1d76490e5899)
+
+*(Replace `VIDEO_ID` with your actual YouTube or Loom video ID/link.)*
+
+---
+
+## Advancement Note
+
+The current system uses YOLO for face detection, but we can enhance accuracy by replacing YOLO with the **RetinaFace model**, which provides superior face detection capabilities especially under challenging conditions.
+
+---
+
+This project is a part of a hackathon run by [https://katomaran.com](https://katomaran.com).
