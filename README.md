@@ -35,8 +35,8 @@ This project implements a comprehensive face recognition and tracking system for
 
 ## Architecture Diagram
 
-![Architecture Diagram](./doc<img width="1024" height="1024" alt="Generated Image September 29, 2025 - 7_30AM" src="https://github.com/user-attachments/assets/5a88230e-8cfd-4ca5-b3a1-c082243ade9b" />
-s/architecture_diagram.png)
+![Architecture Diagram]<img width="1024" height="1024" alt="Arc_Image" src="https://github.com/user-attachments/assets/0d8fb672-aa13-4679-814e-0456c1962647" />
+
 
 ---
 
