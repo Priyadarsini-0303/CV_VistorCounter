@@ -53,6 +53,7 @@ Watch the explanatory and demonstration video here:
 
 The current system uses YOLO for face detection, but we can enhance accuracy by replacing YOLO with the **RetinaFace model**, which provides superior face detection capabilities especially under challenging conditions.This implementation as been provided in the Advancement_CV_TASK.ipynb file in this gitub.
 OUTPUT: ( bounds only the face properly )
+
 <img width="1600" height="704" alt="image" src="https://github.com/user-attachments/assets/214dc206-1931-4fb2-ac7c-aa032a0e4b91" />
 
 ---
